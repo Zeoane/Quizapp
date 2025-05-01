@@ -1,0 +1,28 @@
+body {
+    height: 100vh;
+    background-color: rgb(6, 6, 37) !important;
+    
+}
+
+.container-fluid  {
+    background-color: rgb(65, 65, 123) ;
+    margin: 0;
+    
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quiz-card {
+    width: 30rem;
+}
+
+.question-footer {
+    border-top: 1px solid rgb(46, 30, 228);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 12px;
+}
