@@ -1,14 +1,16 @@
 body {
     height: 100vh;
     background-color: rgb(6, 6, 37) !important;
-    
-}
-
-.container-fluid  {
-    background-color: rgb(65, 65, 123) ;
     margin: 0;
     
 }
+
+h1 {
+    color: antiquewhite !important;
+    text-align: center;
+    padding: 12px;
+}
+
 .card-container {
     display: flex;
     justify-content: center;
@@ -19,10 +21,26 @@ body {
     width: 30rem;
 }
 
+.quiz-answer-card:hover {
+cursor: pointer;
+background-color: rgb(183, 178, 196);
+}
+
 .question-footer {
-    border-top: 1px solid rgb(46, 30, 228);
+    border-top: 1px solid rgb(205, 111, 217);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 12px;
 }
+
+.bg-sucess, .bg-danger {
+    color: antiquewhite;
+}
+
+.modal-content {
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    padding: 20px;
+  }
+  
