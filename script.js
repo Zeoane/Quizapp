@@ -174,8 +174,8 @@ function showResult() {
 
 // Endabfrage nach jeder Frage
 function updateNextButton() {
-    const nextBtn = document.getElementById("next-btn"); // statt "nextBtn"
-    if (!nextBtn) return; // zusätzliche Absicherung gegen null-Fehler
+    const nextBtn = document.getElementById("next-btn"); 
+    if (!nextBtn) return; 
 
     if (currentQuestion === questions.length - 1) {
         nextBtn.textContent = "Ergebnis anzeigen";
